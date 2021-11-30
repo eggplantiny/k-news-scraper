@@ -1,0 +1,29 @@
+{
+  "name": "k-news-scraper",
+  "version": "1.0.0",
+  "description": "A Scraping CLI Application about Korean News Platforms",
+  "main": "dist/index.js",
+  "bin": {
+      "k-news-scraper": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts -q 윤석렬",
+    "build": "tsc"
+  },
+  "repository": "https://github.com/eggplantiny/k-news-scraper.git",
+  "author": "eggplantiny <eggplantiny@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/minimist": "^1.2.2",
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "minimist": "^1.2.5",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}

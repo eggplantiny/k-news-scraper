@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "rootDir": "src",
+    "strict": true,
+    "types": ["node"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "lib": [
+      "ES2020.Promise", "es6", "es2015", "dom"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./dist"
+  ],
+  "compileOnSave": true
+}
