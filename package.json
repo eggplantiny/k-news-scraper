@@ -1,6 +1,6 @@
 {
   "name": "k-news-scraper",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A Scraping CLI Application about Korean News Platforms",
   "main": "dist/index.js",
   "bin": {
